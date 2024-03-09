@@ -1,0 +1,65 @@
+.cont1{
+    width: 100%;
+    height: 50h;
+    margin-bottom: 0;
+    margin-bottom: 80px;
+
+
+}
+.bgimg{
+    width: 100%;
+    height: 700px;
+    opacity: 0.8;
+    image-rendering: auto;
+    image-rendering: -webkit-optimize-contrast; /* WebKit browsers (Chrome, Safari) */
+    image-rendering: optimizeQuality; /* Modern browsers */
+    image-rendering: pixelated; /* Old browsers */
+}
+.find{
+    z-index: 50;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    width: 520px;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(234, 226, 6);
+    line-height: 90px;
+
+}
+.find span{
+    color:rgb(190, 112, 112);
+    font-weight:600;
+    line-height: 5px;
+    font-size: 40px;
+    z-index: 50;
+}
+@media only screen and (max-width: 768px) {
+    .cont1{
+        width: 100%;
+    }
+    .sugbg{
+        width: 100%;
+        margin:auto;
+    }
+    .bgimg{
+        width: 100%;
+        height: 700px;
+    } 
+    .find{
+        z-index: 50;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 520px;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(253, 245, 4);
+    line-height: 90px
+    }
+}
+
+
+

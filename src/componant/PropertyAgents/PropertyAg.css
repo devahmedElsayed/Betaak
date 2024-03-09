@@ -1,0 +1,89 @@
+.agent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto  ;
+    width: 70%;
+    border: 2px solid white;
+    color: white;
+    border-radius:20px ;
+    padding: 10px;
+}
+.agent img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: -30px;
+}
+.head{
+    margin: 50px auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+.head p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.dad{
+    border: 1px solid white;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    height: 170px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    font-size: 18px;
+    align-items: center;
+    font-weight: 500;
+    border-top: 2px solid gold;
+
+}
+.ppcard{
+    width: 270px;
+    margin: 10px auto auto;
+    font-size: 16px;
+    color: gold;
+}
+@media only screen and (max-width: 768px) {
+    .agent{
+        display: block;
+        margin: auto;
+    }
+    .dad{
+        width: 100%;
+        margin: 25px 1px;
+    }
+    .head p{
+        margin: auto;
+    }
+    .ppcard{
+        margin:20px 20px;
+    }
+    .agent img{
+        margin-left: -150px;
+    }
+    .h_name{
+        margin-left: -150px;
+        margin-top: 10px;
+
+    }
+   
+    .head p {
+        text-align: left;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.about{
+    height: 80vh;
+}
+.about h2{
+    color: white;
+    display: block;
+    
+}
+.Abimg{
+    width: 50%;
+    height: 600px;
+    border: none;
+    outline: none;
+    z-index: -1;
+}
+.side-p-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.ph{
+    margin-left: 20px;
+    text-align: center;
+}
+.ph h2{
+    font-size: 35px;
+}
+.ph p{
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
